@@ -1,16 +1,15 @@
 {
     "name": "CCTDropdown",
     "vendor": "UABookStores",
-    "version": "1.0.2",
     "type": "extension",
-    "target": "SCA,SCS",
-    "description": "Dropdown text field",
     "cct": {
         "icon": "img/cct_uabookstores_cctdropdown_icon.svg",
         "settings_record": "customrecordcct_uabookstores_cctdropdown",
         "registercct_id": "cct_uabookstores_cctdropdown"
     },
-    "skins": [],
+    "target": "SCA,SCS",
+    "version": "1.0.2",
+    "description": "Dropdown text field",
     "assets": {
         "img": {
             "files": [
@@ -24,14 +23,6 @@
             "files": []
         }
     },
-    "sass": {
-        "entry_points": {
-            "shopping": "Modules/UABookStores.CCTDropdown.Dropdown/Sass/_cctdropdown-dropdown.scss"
-        },
-        "files": [
-            "Modules/UABookStores.CCTDropdown.Dropdown/Sass/_cctdropdown-dropdown.scss"
-        ]
-    },
     "templates": {
         "application": {
             "shopping": {
@@ -40,6 +31,14 @@
                 ]
             }
         }
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/UABookStores.CCTDropdown.Dropdown/Sass/_cctdropdown-dropdown.scss"
+        },
+        "files": [
+            "Modules/UABookStores.CCTDropdown.Dropdown/Sass/_cctdropdown-dropdown.scss"
+        ]
     },
     "javascript": {
         "entry_points": {
@@ -53,6 +52,5 @@
                 ]
             }
         }
-    },
-    "local_folder": "Workspace/CCTDropdown"
+    }
 }
