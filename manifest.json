@@ -1,0 +1,58 @@
+{
+    "name": "CCTDropdown",
+    "vendor": "UABookStores",
+    "version": "1.0.2",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "description": "Dropdown text field",
+    "cct": {
+        "icon": "img/cct_uabookstores_cctdropdown_icon.svg",
+        "settings_record": "customrecordcct_uabookstores_cctdropdown",
+        "registercct_id": "cct_uabookstores_cctdropdown"
+    },
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": [
+                "img/cct_uabookstores_cctdropdown_icon.svg"
+            ]
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": []
+        }
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/UABookStores.CCTDropdown.Dropdown/Sass/_cctdropdown-dropdown.scss"
+        },
+        "files": [
+            "Modules/UABookStores.CCTDropdown.Dropdown/Sass/_cctdropdown-dropdown.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/UABookStores.CCTDropdown.Dropdown/Templates/uabookstores_cctdropdown_dropdown.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/UABookStores.CCTDropdown.Dropdown/JavaScript/UABookStores.CCTDropdown.Dropdown.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/UABookStores.CCTDropdown.Dropdown/JavaScript/UABookStores.CCTDropdown.Dropdown.js",
+                    "Modules/UABookStores.CCTDropdown.Dropdown/JavaScript/UABookStores.CCTDropdown.Dropdown.View.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace/CCTDropdown"
+}
