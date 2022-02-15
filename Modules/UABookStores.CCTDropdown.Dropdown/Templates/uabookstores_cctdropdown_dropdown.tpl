@@ -1,4 +1,4 @@
-<div class="cctdropdown-container" data-banner="Dropdown">
+<div class="cctdropdown-container" data-banner="dropdown">
     <section class="cctdropdown-dropdown">
         <input type="checkbox" name="hidden" id="{{id}}" checked="checked">
         <h2 class="handle">
