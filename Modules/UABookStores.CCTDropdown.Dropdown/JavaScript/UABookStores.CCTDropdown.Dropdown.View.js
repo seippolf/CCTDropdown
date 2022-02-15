@@ -6,14 +6,14 @@ define('UABookStores.CCTDropdown.Dropdown.View'
 , function
   (
     CustomContentTypeBaseView
-  , uabookstores_cctdropdown_dropdown_tpl
+  , dropdown_tpl
   )
 {
   'use strict';
 
   return CustomContentTypeBaseView.extend({
 
-    template: uabookstores_cctdropdown_dropdown_tpl
+    template: dropdown_tpl
 
   , install: function install (settings, context_data)
     {
