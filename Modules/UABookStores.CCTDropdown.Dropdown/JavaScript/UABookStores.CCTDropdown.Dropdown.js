@@ -12,7 +12,7 @@ define('UABookStores.CCTDropdown.Dropdown'
   return {
     mountToApp: function mountToApp (application)
     {
-      DropdownView.application = application;
+      DropdownView.prototype.application = application;
 
       application.getComponent('CMS').registerCustomContentType({
         id: 'cct_uabookstores_cctdropdown'

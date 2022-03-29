@@ -15,12 +15,28 @@ define('UABookStores.CCTDropdown.Dropdown.View'
 
     template: dropdown_tpl
 
-  , install: function install (settings, context_data)
+  , initialize: function initialize(options) 
     {
-      return this._install(settings, context_data);
+      if (options)
+      {
+        this.container = options.container;
+      }
+      this._initialize()
+   }
+
+  , install: function (settings, context_data) 
+    {
+      this._install(settings, context_data);
+      var promise = jQuery.Deffered();
+      return promise.resolve();
     }
 
   , contextDataRequest: ['item']
+
+  , validateContextDataRequest: function validateContextDataRequest()
+    {
+      return true;
+    }
 
   , getContext: function getContext ()
     {
@@ -28,8 +44,7 @@ define('UABookStores.CCTDropdown.Dropdown.View'
         id: Date.now().toString()
       , header_text: this.settings.custrecord_cctdrop_header
       , content_text: this.settings.custrecord_cctdrop_content
-      }
+      };
     }
-    
   });
 });
