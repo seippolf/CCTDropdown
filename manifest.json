@@ -1,5 +1,6 @@
 {
     "name": "CCTDropdown",
+    "fantasyName": "CCT Dropdown",
     "vendor": "UABookStores",
     "type": "extension",
     "cct": {
@@ -8,19 +9,17 @@
         "registercct_id": "cct_uabookstores_cctdropdown"
     },
     "target": "SCA,SCS",
-    "version": "1.0.5",
-    "description": "Dropdown text field",
+    "target_version": {
+        "SCA": ">=20.0.0",
+        "SCS": ">=20.0.0"
+    },
+    "version": "1.0.15",
+    "description": "Dropdown content type",
     "assets": {
         "img": {
             "files": [
                 "img/cct_uabookstores_cctdropdown_icon.svg"
             ]
-        },
-        "fonts": {
-            "files": []
-        },
-        "services": {
-            "files": []
         }
     },
     "templates": {

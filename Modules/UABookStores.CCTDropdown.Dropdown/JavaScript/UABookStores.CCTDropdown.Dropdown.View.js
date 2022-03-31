@@ -27,7 +27,7 @@ define('UABookStores.CCTDropdown.Dropdown.View'
   , install: function (settings, context_data) 
     {
       this._install(settings, context_data);
-      var promise = jQuery.Deffered();
+      var promise = jQuery.Deferred();
       return promise.resolve();
     }
 
