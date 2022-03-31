@@ -13,7 +13,7 @@
         "SCA": ">=20.0.0",
         "SCS": ">=20.0.0"
     },
-    "version": "1.0.15",
+    "version": "1.0.20",
     "description": "Dropdown content type",
     "assets": {
         "img": {

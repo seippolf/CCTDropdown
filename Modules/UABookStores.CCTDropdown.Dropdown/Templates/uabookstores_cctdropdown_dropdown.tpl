@@ -4,5 +4,5 @@
         <h3 class="handle">
             <label for="{{id}}">{{header_text}}</label>
         </h3>
-        <div class="content">{{content_text}}</div>
+        <div class="content">{{{content_text}}}</div>
     </div>
