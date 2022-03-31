@@ -25,6 +25,7 @@
   margin: 10px;
   font-size: 16px;
 }
+
 /* Change before to "-" */
 .cctdropdown-dropdown > input[name="hidden"]:checked ~ .handle label:before {
   content: "\2212";
