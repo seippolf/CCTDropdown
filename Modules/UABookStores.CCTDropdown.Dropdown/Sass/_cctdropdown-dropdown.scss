@@ -18,19 +18,18 @@
 .cctdropdown-dropdown label:focus {
   background-color: #1E5288;
 }
-
 /* Set ::before to "+" */
 .cctdropdown-dropdown .handle label:before {
   content: "+";
   margin: 10px;
   font-size: 16px;
 }
-
 /* Change before to "-" */
 .cctdropdown-dropdown > input[name="hidden"]:checked ~ .handle label:before {
   content: "\2212";
 }
 
+/* ----- Content Area ----- */
 .cctdropdown-dropdown .content {
   background-color: #ffffff;
   height: 0;
